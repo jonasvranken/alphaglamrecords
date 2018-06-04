@@ -1,0 +1,901 @@
+/* ALGEMENE STYLING*/
+/* ALGEMENE STYLING*/
+/* ALGEMENE STYLING*/
+          * {
+                box-sizing: border-box;
+                font-size: 62.5%;
+                font-family: 'Teko', sans-serif;
+                line-height: 150%;
+          }
+
+          a {
+                text-decoration: none;
+                color: white;
+          }
+
+
+/* HEADER-MENU STYLING*/
+/* HEADER-MENU STYLING*/
+/* HEADER-MENU STYLING*/
+          header {
+                width: 100%;
+                margin: 0 auto;
+                font-family: 'Teko', sans-serif;
+                font-weight: bold;
+                font-size: 1.25rem;
+                background-color: #000005;
+          }
+
+          header ul {
+                margin: auto;
+                text-align: center;
+          }
+
+          header li {
+                display: block;
+                color: white;
+                cursor: pointer;
+          }
+
+          header li a {
+                padding: 7px 0;
+                letter-spacing: 2px;
+                display: block;
+          }
+
+          header li a:hover {
+                background-color: white;
+                color: #000005;
+          }
+
+          header img {
+                margin: 0 auto;
+                padding: 7px 0;
+                display: block;
+                background-color: #000005;
+          }
+
+/* MAIN STYLING*/
+/* MAIN STYLING*/
+/* MAIN STYLING*/
+          .slideshow {
+                width: 100%;
+                height: 350px;
+                display: block;
+                color: white;
+                border: none;
+                position: relative;
+                background-color: #000005;
+          }
+
+          .slide1 {
+                background-image: url(images/billboard1.jpg);
+                background-size: cover;
+                background-position: left bottom;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide1;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide1 {
+                0% {
+                  opacity: 0;
+                }
+
+                1% {
+                  opacity: 1;
+                }
+
+                9% {
+                  opacity: 1;
+                }
+
+                10% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+
+          .slide2 {
+                background-image: url(images/billboard2.jpg);
+                background-size: cover;
+                background-position: center center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide2;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide2 {
+                0% {
+                  opacity: 0;
+                }
+
+                10% {
+                  opacity: 0;
+                }
+
+                11% {
+                  opacity: 1;
+                }
+
+                19% {
+                  opacity: 1;
+                }
+
+                20% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide3 {
+                background-image: url(images/billboard3.jpg);
+                background-size: cover;
+                background-position: right center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide3;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide3 {
+                0% {
+                  opacity: 0;
+                }
+
+                20% {
+                  opacity: 0;
+                }
+
+                21% {
+                  opacity: 1;
+                }
+
+                29% {
+                  opacity: 1;
+                }
+
+                30% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide4 {
+                background-image: url(images/billboard4.jpg);
+                background-size: cover;
+                background-position: center center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide4;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide4 {
+                0% {
+                  opacity: 0;
+                }
+
+                30% {
+                  opacity: 0;
+                }
+
+                31% {
+                  opacity: 1;
+                }
+
+                39% {
+                  opacity: 1;
+                }
+
+                40% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide5 {
+                background-image: url(images/billboard5.jpg);
+                background-size: cover;
+                background-position: center center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide5;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide5 {
+                0% {
+                  opacity: 0;
+                }
+
+                40% {
+                  opacity: 0;
+                }
+
+                41% {
+                  opacity: 1;
+                }
+
+                49% {
+                  opacity: 1;
+                }
+
+                50% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide6 {
+                background-image: url(images/billboard6.jpg);
+                background-size: cover;
+                background-position: right bottom;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide6;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide6 {
+                0% {
+                  opacity: 0;
+                }
+
+                50% {
+                  opacity: 0;
+                }
+
+                51% {
+                  opacity: 1;
+                }
+
+                59% {
+                  opacity: 1;
+                }
+
+                60% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide7 {
+                background-image: url(images/billboard7.jpg);
+                background-size: cover;
+                background-position: left center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide7;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide7 {
+                0% {
+                  opacity: 0;
+                }
+
+                60% {
+                  opacity: 0;
+                }
+
+                61% {
+                  opacity: 1;
+                }
+
+                69% {
+                  opacity: 1;
+                }
+
+                70% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide8 {
+                background-image: url(images/billboard8.jpg);
+                background-size: cover;
+                background-position: center top;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide8;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide8 {
+                0% {
+                  opacity: 0;
+                }
+
+                70% {
+                  opacity: 0;
+                }
+
+                71% {
+                  opacity: 1;
+                }
+
+                79% {
+                  opacity: 1;
+                }
+
+                80% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide9 {
+                background-image: url(images/billboard9.jpg);
+                background-size: cover;
+                background-position: center top;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide9;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide9 {
+                0% {
+                  opacity: 0;
+                }
+
+                80% {
+                  opacity: 0;
+                }
+
+                81% {
+                  opacity: 1;
+                }
+
+                89% {
+                  opacity: 1;
+                }
+
+                90% {
+                  opacity: 0;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          .slide10 {
+                background-image: url(images/billboard10.jpg);
+                background-size: cover;
+                background-position: right center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                animation-name: slide10;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+          }
+
+          @keyframes slide10 {
+                0% {
+                  opacity: 0;
+                }
+
+                90% {
+                  opacity: 0;
+                }
+
+                91% {
+                  opacity: 1;
+                }
+
+                99% {
+                  opacity: 1;
+                }
+
+                100% {
+                  opacity: 0;
+                }
+          }
+
+          h1 {
+                font-size: 2rem;
+                text-align: center;
+                line-height: 150%;
+                font-weight: bold;
+                margin-bottom: 5px;
+                letter-spacing: 2px;
+          }
+
+          h2 {
+                font-size: 1.5rem;
+                text-align: center;
+                line-height: 150%;
+                font-weight: bold;
+                margin-bottom: 5px;
+                letter-spacing: 2px;
+          }
+
+          main {
+                font-size: 1.20rem;
+          }
+
+          .about {
+                width: 80vw;
+                margin: auto;
+                padding: 10px 0 20px;
+                color: #000005;
+          }
+
+          .abouttekst {
+                text-align: center;
+          }
+
+          .abouttekst p {
+                padding: 0 0 20px 0;
+          }
+
+          .vision {
+                background-color: #000005;
+                color: white;
+                margin: auto;
+                padding: 10px 0 20px;
+          }
+
+          .visiondivs img {
+                height: 120px;
+                margin: auto;
+                display: block;
+          }
+
+          .visiondivs {
+                width: 80vw;
+                margin: 0 auto 20px;
+          }
+
+          .visiondivs div {
+                margin: 0 auto;
+                padding: 20px 0;
+          }
+
+          .visiondivs p {
+                text-align: center;
+                margin-top: 10px;
+          }
+
+          .timeless {
+                border-bottom: 3px solid white;
+                border-top: 3px solid white;
+          }
+
+          .artists {
+                margin: auto;
+                width: 80vw;
+                padding: 10px 0 20px;
+          }
+
+          .artistlogo img {
+                width: 85%;
+                max-width: 325px;
+                margin: 0 auto;
+                display: block;
+          }
+
+          .artistlogo a {
+                border: 3px #000005 solid;
+                width: 100%;
+                margin: 20px auto;
+                display: block;
+                padding-top: 10%;
+                padding-bottom: 10%;
+          }
+
+          .buttonlink {
+                display: block;
+                margin: 20px auto 10px;
+                text-align: center;
+          }
+
+          .button {
+                line-height: 100%;
+                font-size: 1.25rem;
+                font-weight: bold;
+                letter-spacing: 2px;
+                background-color: #000005;
+                color: white;
+                border: 3px solid #000005;
+                padding: 0 30px;
+                margin-bottom: 40px;
+                display: inline;
+                margin: 0 auto;
+                text-align: center;
+          }
+
+          .button:hover {
+                background-color: white;
+                color: #000005;
+                cursor: pointer;
+          }
+
+
+/* FOOTER STYLING*/
+/* FOOTER STYLING*/
+/* FOOTER STYLING*/
+          footer {
+                color: white;
+                background-color: #000005;
+                font-family: 'Teko', sans-serif;
+                font-size: 1.25rem;
+                font-weight: bold;
+                letter-spacing: 2px;
+                padding: 50px 0 10px 0;
+                text-align: center;
+          }
+
+          footer ul {
+                margin: 0 auto 40px;
+                width: 70px;
+          }
+
+          footer ul li {
+                margin: 3px auto;
+                display: inline-block;
+          }
+
+          .copyright {
+                display: block;
+                font-size: 1.25rem;
+                text-align: center;
+                margin-top: 10px;
+          }
+
+          span {
+                display: none;
+          }
+
+          input[type=email] {
+                font-size: 1rem;
+                font-weight: 500;
+                letter-spacing: 1px;
+                color: #000005;
+                background-color: white;
+                border: none;
+                box-shadow: none;
+                appearance: none;
+                padding: 5px 10px;
+                margin-bottom: 10px;
+          }
+
+          ::placeholder {
+                color: #000005;
+          }
+
+          :-ms-input-placeholder {
+                color: #000005;
+          }
+
+          ::-ms-input-placeholder {
+                color: #000005;
+          }
+
+          input[type=submit] {
+                line-height: 100%;
+                font-size: 1.25rem;
+                font-weight: bold;
+                letter-spacing: 2px;
+                background-color: #000005;
+                color: white;
+                border: 3px solid white;
+                padding: 4px 10px;
+                margin-bottom: 40px;
+                position: relative;
+                top: 1px;
+          }
+
+          input[type=submit]:hover {
+                background-color: white;
+                color: #000005;
+                cursor: pointer;
+          }
+
+          *:focus {
+                outline: none;
+          }
+
+          footer p {
+                margin-bottom: 7px;
+          }
+
+          footer img {
+                height: 35px;
+                margin-right: 15px;
+          }
+
+          .footer div {
+                margin: 0 auto 40px;
+          }
+
+/* BREAKPOINT STYLING 500px*/
+/* BREAKPOINT STYLING 500px*/
+/* BREAKPOINT STYLING 500px*/
+          @media (min-width: 500px) {
+            header ul {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            span {
+                  display: inline;
+            }
+
+            .footer {
+                  text-align: left;
+                  display: grid;
+                  grid-template-columns: 4fr 6fr;
+            }
+
+            .footer div {
+                  width: 280px;
+            }
+          }
+
+/* BREAKPOINT STYLING 650px*/
+/* BREAKPOINT STYLING 650px*/
+/* BREAKPOINT STYLING 650px*/
+          @media (min-width: 650px) {
+            .slideshow {
+
+            }
+          }
+
+/* BREAKPOINT STYLING 750px*/
+/* BREAKPOINT STYLING 750px*/
+/* BREAKPOINT STYLING 750px*/
+          @media (min-width: 750px) {
+            .slideshow {
+                  height: 450px;
+            }
+
+            .visiondivs {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .timeless {
+                  border-bottom: none;
+                  border-top: none;
+                  border-left: 3px solid white;
+                  border-right: 3px solid white;
+            }
+
+            .visiondivs div {
+                  padding-left: 3vw;
+                  padding-right: 3vw;
+            }
+
+            .artistlogo {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  grid-gap: 3vw;
+                  padding: 20px 0;
+            }
+
+            .artistlogo a {
+                  margin: 0px auto;
+            }
+
+            .artistlogo img {
+                  max-width: 400px;
+            }
+          }
+
+/* BREAKPOINT STYLING 1000px*/
+/* BREAKPOINT STYLING 1000px*/
+/* BREAKPOINT STYLING 1000px*/
+          @media (min-width: 1000px) {
+            header ul {
+                  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+
+            .slideshow {
+                  height: 600px;
+            }
+
+            .abouttekst p {
+                  padding-left: 3vw;
+                  padding-right: 3vw;
+                  padding-top: 0;
+                  padding-bottom: 20px;
+            }
+
+            .artistlogo a {
+                  padding-bottom: 40px;
+                  padding-top: 40px;
+            }
+          }
+
+/* BREAKPOINT STYLING 1200px*/
+/* BREAKPOINT STYLING 1200px*/
+/* BREAKPOINT STYLING 1200px*/
+          @media (min-width: 1200px) {
+
+          }
+
+
+/* ANIMATIE LOGO STYLING*/
+/* ANIMATIE LOGO STYLING*/
+/* ANIMATIE LOGO STYLING*/
+          header img:hover {
+                animation-name: animatielogo;
+                animation-duration: 1s;
+          }
+
+          @keyframes animatielogo {
+                  10% {
+                    transform: translateX(3px) rotate(2deg);
+                  }
+                  20% {
+                    transform: translateX(-3px) rotate(-2deg);
+                  }
+                  30% {
+                    transform: translateX(3px) rotate(2deg);
+                  }
+                  40% {
+                    transform: translateX(-3px) rotate(-2deg);
+                  }
+                  50% {
+                    transform: translateX(2px) rotate(1deg);
+                  }
+                  60% {
+                    transform: translateX(-2px) rotate(-1deg);
+                  }
+                  70% {
+                    transform: translateX(2px) rotate(1deg);
+                  }
+                  80% {
+                    transform: translateX(-2px) rotate(-1deg);
+                  }
+                  90% {
+                    transform: translateX(1px) rotate(0);
+                  }
+                  100% {
+                    transform: translateX(-1px) rotate(0);
+                  }
+          }
+
+
+  /* ANIMATIE NAVIGATIE & BUTTONS STYLING*/
+  /* ANIMATIE NAVIGATIE & BUTTONS STYLING*/
+  /* ANIMATIE NAVIGATIE & BUTTONS STYLING*/
+          header li a {
+                transform: perspective(1px) translateZ(0);
+                overflow: hidden;
+                transition-duration: 0.4s;
+                transition-property: color, background-color;
+          }
+
+          input[type=submit] {
+                transform: perspective(1px) translateZ(0);
+                overflow: hidden;
+                transition-duration: 0.4s;
+                transition-property: color, background-color;
+          }
+
+          .button {
+                transform: perspective(1px) translateZ(0);
+                overflow: hidden;
+                transition-duration: 0.4s;
+                transition-property: color, background-color;
+          }
+
+/* ANIMATIE SOCIAL MEDIA ICONS FOOTER STYLING*/
+/* ANIMATIE SOCIAL MEDIA ICONS FOOTER STYLING*/
+/* ANIMATIE SOCIAL MEDIA ICONS FOOTER STYLING*/
+          footer img {
+                transform: perspective(1px) translateZ(0);
+                transition-duration: 0.4s;
+                transition-property: transform;
+          }
+
+          footer img:hover {
+                transform: scale(1.25);
+          }
+
+/* ANIMATIE NAVIGATIE FOOTER STYLING*/
+/* ANIMATIE NAVIGATIE FOOTER STYLING*/
+/* ANIMATIE NAVIGATIE FOOTER STYLING*/
+          footer li a:after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 0;
+            background: transparent;
+            transition: width .5s ease, background-color .5s ease;
+          }
+
+          footer li a:hover:after {
+            width: 100%;
+            background: white;
+          }
+
+/* ANIMATIE LOGO ARTISTS STYLING*/
+/* ANIMATIE LOGO ARTISTS STYLING*/
+/* ANIMATIE LOGO ARTISTS STYLING*/
+          @keyframes artistlogo {
+            16.65% {
+              -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+            }
+            33.3% {
+              -webkit-transform: translateX(-6px);
+              transform: translateX(-6px);
+            }
+            49.95% {
+              -webkit-transform: translateX(4px);
+              transform: translateX(4px);
+            }
+            66.6% {
+              -webkit-transform: translateX(-2px);
+              transform: translateX(-2px);
+            }
+            83.25% {
+              -webkit-transform: translateX(1px);
+              transform: translateX(1px);
+            }
+            100% {
+              -webkit-transform: translateX(0);
+              transform: translateX(0);
+            }
+          }
+          .artistlogo img {
+            transform: perspective(1px) translateZ(0);
+          }
+          .artistlogo img:hover, .artistlogo img:focus, .artistlogo img:active {
+            animation-name: artistlogo;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+          }
