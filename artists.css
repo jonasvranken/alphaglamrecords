@@ -89,7 +89,7 @@
 
           .background1, .background2, .background3, .background4 {
                 width: 100%;
-                background-image: url(images/background.jpg);
+                background-image: url(background.jpg);
                 background-size: cover;
                 background-position: center center;
           }
